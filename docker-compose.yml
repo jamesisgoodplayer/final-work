@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  web:
+  myapp:
     image: basketball223/my-final-app :latest
     ports:
       - "80:80"
