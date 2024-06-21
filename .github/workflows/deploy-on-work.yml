@@ -20,8 +20,8 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t basketball223/my-final-app .
-          docker push basketball223/my-final-app .
+          docker build -t basketball223/my-final-app:latest .
+          docker push basketball223/my-final-app:latest
 
       - name: Copy file via SSH password
         uses: appleboy/scp-action@v0.1.4
