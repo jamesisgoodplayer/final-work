@@ -1,8 +1,8 @@
-version: '4'
+version: '3.8'  # 更新版本声明
 
 services:
   myapp:
-    image: basketball223/my-final-app:latest  
+    image: basketball223/my-final-app:latest
     ports:
       - "8086:80"
     restart: always
