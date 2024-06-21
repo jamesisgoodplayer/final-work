@@ -3,4 +3,4 @@
    server:
      image: basketball223/docker-ci-basic:latest
      ports:
-       - 8083:80
+       - 8081:80
