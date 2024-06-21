@@ -1,8 +1,8 @@
-version: '3'
+version: '4'
 
 services:
   myapp:
-    image: basketball223/my-final-app :latest
+    image: basketball223/my-final-app:latest  
     ports:
-      - "80:80"
+      - "8086:80"
     restart: always
