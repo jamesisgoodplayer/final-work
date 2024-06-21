@@ -1,8 +1,6 @@
-version: '3.8'  # 更新版本声明
-
-services:
-  myapp:
-    image: basketball223/my-final-app:latest
-    ports:
-      - "8086:80"
-    restart: always
+ version: '3'
+ services:
+   server:
+     image: basketball223/docker-ci-basic:latest
+     ports:
+       - 8083:80
